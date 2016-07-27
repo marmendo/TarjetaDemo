@@ -63,7 +63,7 @@ else if(array_key_exists('vcard',$_GET)){
         
         <footer>
 	        <h2>OpenShift PHP Page</h2>
-            <a class="tzine" href="https://www.openshift.com/">OpenShift</a>
+            <a class="tzine" href="https://www.openshift.com/">More Info: </a>
         </footer>
           
     </body>
