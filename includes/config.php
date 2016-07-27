@@ -4,9 +4,9 @@ error_reporting(E_ALL ^ E_NOTICE);
 
 
 $info = array(
-	'firstName'		=> 'Javier',
-	'middleName'	=> 'M.',
-	'lastName'		=> 'Nohales',
+	'firstName'		=> 'Red',
+	'middleName'	=> '',
+	'lastName'		=> 'Hat',
 	'photoURL'		=> 'assets/img/redhat.png',
 	'birthDay'		=> strtotime('22-12-1977'),
 	'city'			=> 'Madrid',
@@ -18,9 +18,7 @@ $info = array(
 	'email'			=> 'jmn@redhat.com',
 	'cellphone'		=> '(+34)914148800',
 	'description'	=> "Esta página es una demostración del funcionamiento</br> de OpenShift como plataforma PaaS.",
-	'tags'			=> 'Senior Solution Architect',
-	'facebook'		=> 'http://www.facebook.com/',
-	'twitter'		=> 'http://twitter.com/Tutorialzine'
+	'tags'			=> 'The Open Organization'
 );
 
 
