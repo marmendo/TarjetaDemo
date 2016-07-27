@@ -55,12 +55,6 @@ else if(array_key_exists('vcard',$_GET)){
             
 		</section>
         
-        <section id="links">
-        	<a href="?vcard" class="vcard">Download as V-Card</a>
-            <a href="?json" class="json">Get as a JSON feed</a>
-            <p>In this tutorial: <a href="http://www.flickr.com/photos/levycarneiro/4144428707/">Self Portrait</a> by <a href="http://www.flickr.com/photos/levycarneiro/">Levy Carneiro Jr</a></p>
-        </section>
-        
         <footer>
 	        <h2>OpenShift PHP Page</h2>
             <a class="tzine" href="https://www.openshift.com/">More Info: </a>
