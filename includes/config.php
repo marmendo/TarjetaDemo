@@ -4,21 +4,21 @@ error_reporting(E_ALL ^ E_NOTICE);
 
 
 $info = array(
-	'firstName'		=> 'John',
-	'middleName'	=> 'S.',
-	'lastName'		=> 'Smith',
+	'firstName'		=> 'Javier',
+	'middleName'	=> 'M.',
+	'lastName'		=> 'Nohales',
 	'photoURL'		=> 'assets/img/redhat.png',
-	'birthDay'		=> strtotime('22-03-1983'),
-	'city'			=> 'MyCity',
-	'country'		=> 'United States',
-	'street'		=> 'My Street 21',
-	'zip'			=> '12345',
-	'company'		=> 'Google Inc',
-	'website'		=> 'http://tutorialzine.com/',
-	'email'			=> 'email@example.com',
-	'cellphone'		=> '12345678910',
-	'description'	=> "I am a webdeveloper living in California. I enjoy designing and coding web applications, photography, surfing and music.\n\nFollow me on twitter or facebook.",
-	'tags'			=> 'Developer, Designer, Photographer',
+	'birthDay'		=> strtotime('22-12-1977'),
+	'city'			=> 'Madrid',
+	'country'		=> 'Spain',
+	'street'		=> 'Calle de Jose Bardasano Baos, 9, 28016 Madrid
+	'zip'			=> '28016',
+	'company'		=> 'Red Hat',
+	'website'		=> 'http://www.redhat.com/',
+	'email'			=> 'jmn@redhat.com',
+	'cellphone'		=> '(+34)914148800',
+	'description'	=> "...",
+	'tags'			=> 'Senior Solution Architect',
 	'facebook'		=> 'http://www.facebook.com/',
 	'twitter'		=> 'http://twitter.com/Tutorialzine'
 );

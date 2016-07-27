@@ -46,9 +46,6 @@ else if(array_key_exists('vcard',$_GET)){
             
             <p class="description"><?php echo nl2br($profile->description())?></p>
             
-            <a href="<?php echo $profile->facebook()?>" class="grayButton facebook">Find me on Facebook</a>
-            <a href="<?php echo $profile->twitter()?>" class="grayButton twitter">Follow me on Twitter</a>
-            
             <ul class="vcard">
                 <li class="fn"><?php echo $profile->fullName()?></li>
                 <li class="org"><?php echo $profile->company()?></li>
