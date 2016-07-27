@@ -23,7 +23,7 @@ else if(array_key_exists('vcard',$_GET)){
         <meta charset="utf-8" />
         <meta name="description" content="Online info page of <?php echo $profile->fullName()?>. Learn more about me and download a vCard." />
 
-        <title>Creating a PHP and CSS Powered About Page  | Tutorialzine Demo</title>
+        <title>PHP Example  | Demo</title>
         
         <!-- Our CSS stylesheet file -->
         <link rel="stylesheet" href="assets/css/styles.css" />
@@ -65,8 +65,8 @@ else if(array_key_exists('vcard',$_GET)){
         </section>
         
         <footer>
-	        <h2>Creating a PHP &amp; CSS Powered About Page</h2>
-            <a class="tzine" href="http://tutorialzine.com/2011/07/about-page-vcard-php-css/">Read &amp; Download on</a>
+	        <h2>OpenShift PHP Page</h2>
+            <a class="tzine" href="https://www.openshift.com/">OpenShift</a>
         </footer>
           
     </body>
