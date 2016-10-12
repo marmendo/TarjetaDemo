@@ -56,7 +56,7 @@ else if(array_key_exists('vcard',$_GET)){
 		</section>
         
         <footer>
-	        <h2>OpenShift PHP Page</h2>
+	        <h2>Server: $_SERVER['SERVER_NAME']</h2>
             <a class="tzine" href="https://www.openshift.com/">Info, links &amp; more: </a>
         </footer>
           
