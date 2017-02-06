@@ -56,7 +56,7 @@ else if(array_key_exists('vcard',$_GET)){
 		</section>
         
         <footer>
-	        <h2>POD_ID: <?php echo file_get_contents('/etc/hostname', true) ?> </h2>
+	        <h2>POD_Logicalis: <?php echo file_get_contents('/etc/hostname', true) ?> </h2>
             <a class="tzine" href="https://www.openshift.com/">Info, links &amp; more: </a>
         </footer>
           
