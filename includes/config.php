@@ -4,9 +4,9 @@ error_reporting(E_ALL ^ E_NOTICE);
 
 
 $info = array(
-	'firstName'		=> 'Demo Openshift',
+	'firstName'		=> 'Openshift',
 	'middleName'	=> '',
-	'lastName'		=> 'Container Platform',
+	'lastName'		=> 'Demo',
 	'photoURL'		=> 'assets/img/redhat.png',
 	'birthDay'		=> strtotime('22-12-1977'),
 	'city'			=> 'Madrid',
