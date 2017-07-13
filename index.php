@@ -40,7 +40,7 @@ else if(array_key_exists('vcard',$_GET)){
     		<img src="<?php echo $profile->photoURL()?>" alt="<?php echo $profile->fullName()?>" width="164" height="164" />
 
             <header>
-                <h1><?php echo $profile->fullName()?></h1>
+                <h1>POD: <?php echo file_get_contents('/etc/hostname', true) ?> </h1>
                 <h2><?php echo $profile->tags()?></h2>
             </header>
             
