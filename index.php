@@ -41,7 +41,7 @@ else if(array_key_exists('vcard',$_GET)){
 
             <header>
                 <h1><?php echo $profile->fullName()?></h1>
-                <h2><?php echo $profile->tags()?></h2>
+                <h2>POD: <?php echo file_get_contents('/etc/hostname', true) ?></h2>
             </header>
             
             <p class="description"><?php echo nl2br($profile->description())?></p>
